@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Numerical Study of the Blasius Boundary Layer</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+
+    .project-page {
+      padding-bottom: 60px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #0b57d0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .project-hero {
+      margin-bottom: 40px;
+    }
+
+    .project-hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .project-subtitle {
+      font-size: 1.05rem;
+      color: #444;
+      margin-bottom: 10px;
+      max-width: 820px;
+    }
+
+    .project-meta {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    .project-section {
+      margin-bottom: 36px;
+    }
+
+    .project-section h2 {
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+      font-size: 1.3rem;
+    }
+
+    .project-section p {
+      margin-bottom: 14px;
+    }
+
+    .project-section ul {
+      padding-left: 22px;
+      margin: 0;
+    }
+
+    .project-section li {
+      margin-bottom: 10px;
+    }
+
+    .project-links-inline a {
+      color: #0b57d0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .project-links-inline a:hover {
+      text-decoration: underline;
+    }
+
+    .project-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .project-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="project-page">
+    <a class="back-link" href="index.html">← Back to Portfolio</a>
+
+    <header class="project-hero">
+      <h1>Numerical Study of the Blasius Boundary Layer</h1>
+      <p class="project-subtitle">
+        Academic project focused on the numerical solution of the Blasius boundary
+        layer equation, including characteristic thickness evaluation, velocity-field
+        analysis, vorticity estimation, and circulation calculation.
+      </p>
+      <p class="project-meta">Academic Project | Fluid Mechanics | 2023</p>
+    </header>
+
+    <section class="project-section">
+      <h2>Overview</h2>
+      <p>
+        This academic project addressed the classical laminar boundary layer problem
+        introduced by Blasius. The work combined fluid mechanics theory with numerical
+        implementation in MATLAB in order to solve the nonlinear ordinary differential
+        equation associated with the self-similar boundary layer formulation.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>Scope of Work</h2>
+      <p>
+        The project began with the theoretical development of the boundary layer model,
+        including the no-slip condition, characteristic thickness definitions, vorticity,
+        circulation, and the self-similar transformation leading to the Blasius equation.
+      </p>
+
+      <p>
+        A numerical algorithm was then implemented to solve the problem using an iterative
+        shooting method together with MATLAB ODE solvers. Once the solution was obtained,
+        the resulting velocity profile was used to evaluate characteristic boundary layer
+        quantities and additional flow properties.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>Numerical Method and Results</h2>
+      <ul>
+        <li>Implemented the Blasius equation solution in MATLAB using ODE45.</li>
+        <li>Applied an iterative shooting method to satisfy the asymptotic boundary condition.</li>
+        <li>Obtained the normalized velocity profile and identified the boundary layer thickness criterion.</li>
+        <li>Calculated boundary layer thickness, displacement thickness, and momentum thickness.</li>
+        <li>Computed local velocity components for arbitrary x and y positions inside the boundary layer.</li>
+        <li>Estimated vorticity and circulation from the numerical solution.</li>
+      </ul>
+    </section>
+
+    <section class="project-section">
+      <h2>Technical Focus</h2>
+      <p>
+        One of the most valuable aspects of the project was connecting the mathematical
+        formulation of the Blasius problem with its physical interpretation. The work made
+        it possible to move from the abstract nonlinear differential equation to meaningful
+        aerodynamic quantities such as characteristic thicknesses, velocity distribution,
+        and rotational flow behavior inside the boundary layer.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>Tools and Deliverables</h2>
+      <p>
+        MATLAB was used for the numerical implementation, iterative solution procedure,
+        tabulated results, and graph generation. The final deliverable was a complete
+        technical report documenting the methodology, governing equations, numerical
+        approach, obtained results, and engineering conclusions.
+      </p>
+
+      <p class="project-links-inline">
+        <a href="blasius-report.pdf" target="_blank">Open Project PDF</a>
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>Project Value</h2>
+      <p>
+        This project strengthened my understanding of viscous flow theory, similarity
+        solutions, and numerical methods applied to fluid mechanics. It also provided
+        valuable practice in translating theoretical models into computational tools and
+        presenting the results in a formal technical report.
+      </p>
+    </section>
+
+    <section class="project-section">
+      <h2>Gallery</h2>
+      <p>
+        Figures from the project can be added here, such as the shooting method plots,
+        the final Blasius solution, and the resulting velocity profile.
+      </p>
+
+      <!-- Example image blocks -->
+      <!--
+      <div class="project-gallery">
+        <img src="images/blasius_1.jpg" alt="Shooting method convergence plot" />
+        <img src="images/blasius_2.jpg" alt="Blasius equation numerical solution" />
+        <img src="images/blasius_3.jpg" alt="Boundary layer velocity profile" />
+      </div>
+      -->
+    </section>
+  </main>
+
+</body>
+</html>
