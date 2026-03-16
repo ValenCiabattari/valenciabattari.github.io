@@ -7,33 +7,155 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+
+  <!-- HOME -->
+  <header id="home">
     <h1>Valentino Ciabattari</h1>
-    <p>Ingeniería Aeroespacial | Motorsport | Aerodinámica | Ingeniería de pista</p>
+    <p>Aerospace Engineering | Motorsport | Aerodynamics | Track Engineering</p>
+
+    <div class="home-intro">
+      <p>
+        Breve presentación personal / perfil profesional / enfoque técnico.
+      </p>
+    </div>
+
+    <div class="home-contact">
+      <p>Email</p>
+      <p>LinkedIn</p>
+      <p>GitHub</p>
+      <p>Location / Availability</p>
+    </div>
+
+    <div class="home-buttons">
+      <a href="#projects">View Projects</a>
+      <a href="#documents">View Documents</a>
+      <a href="#references">References</a>
+    </div>
   </header>
 
-  <section>
-    <h2>Sobre mí</h2>
+  <!-- ABOUT ME -->
+  <section id="about">
+    <h2>About Me</h2>
     <p>
-      Estudiante avanzado del Máster en Ingeniería Aeroespacial, con experiencia técnica
-      en automovilismo de competición argentino y apasionado por su aplicación desde la ingeniería.
+      Formación académica / experiencia en motorsport / interés en simulación,
+      análisis, diseño y desarrollo de herramientas técnicas.
     </p>
   </section>
 
-  <section>
-    <h2>Proyectos</h2>
+  <!-- FEATURED PROJECTS -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+
+    <article class="project-card">
+      <h3>Motorsport Technical Management Software</h3>
+      <p>Python | Database | GUI | Setup | Tyres | Aerodynamics</p>
+      <button>Read More</button>
+      <!-- Desplegable futuro:
+           objetivo / rol / herramientas / imágenes / PDFs / videos / resultados -->
+    </article>
+
+    <article class="project-card">
+      <h3>Lap Time Simulation / Minimum-Time Trajectory Tool</h3>
+      <p>MATLAB | Vehicle Dynamics | Control | Optimization</p>
+      <button>Read More</button>
+    </article>
+
+    <article class="project-card">
+      <h3>UTV Competition Vehicle Design</h3>
+      <p>CAD | Suspension Geometry | Safety Cage | Vehicle Design</p>
+      <button>Read More</button>
+    </article>
+
+    <article class="project-card">
+      <h3>Aerospace Conceptual Design Projects</h3>
+      <p>Aircraft Design | Trade-off Studies | Performance | Aerodynamics</p>
+      <button>Read More</button>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-block">
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Vehicle Dynamics</li>
+        <li>Aerodynamics</li>
+        <li>Data Analysis</li>
+        <li>Simulation</li>
+        <li>Track Engineering</li>
+      </ul>
+    </div>
+
+    <div class="skills-block">
+      <h3>Software & Tools</h3>
+      <ul>
+        <li>Python</li>
+        <li>MATLAB</li>
+        <li>LaTeX</li>
+        <li>SolidWorks</li>
+        <li>Ansys</li>
+        <li>MoTeC</li>
+        <li>AiM</li>
+        <li>SQL / MySQL / SQLite</li>
+      </ul>
+    </div>
+
+    <div class="skills-block">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Technical Communication</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- APPLIED ENGINEERING EXPERIENCE -->
+  <section id="experience">
+    <h2>Applied Engineering Experience</h2>
     <ul>
-      <li>Software de gestión técnica para automovilismo</li>
-      <li>Optimización aerodinámica mediante CFD</li>
-      <li>Ingeniería de pista y análisis de telemetría</li>
+      <li>Trackside engineering support</li>
+      <li>Telemetry analysis and performance evaluation</li>
+      <li>Technical software development for motorsport</li>
+      <li>Vehicle design and engineering support</li>
+      <li>Academic engineering research and simulation</li>
     </ul>
   </section>
 
-  <section>
-    <h2>Documentos</h2>
+  <!-- DOCUMENTS -->
+  <section id="documents">
+    <h2>Documents</h2>
     <ul>
-      <li><a href="docs/CV.pdf" target="_blank">Ver CV</a></li>
+      <li><a href="docs/CV.pdf" target="_blank">Curriculum Vitae</a></li>
+      <li><a href="docs/Motivation_Letter.pdf" target="_blank">Motivation Letter</a></li>
+      <li><a href="docs/Portfolio.pdf" target="_blank">Portfolio PDF</a></li>
     </ul>
   </section>
+
+  <!-- REFERENCES -->
+  <section id="references">
+    <h2>References</h2>
+
+    <div class="reference-block">
+      <h3>Recommendation Letters</h3>
+      <ul>
+        <li><a href="docs/recommendation_1.pdf" target="_blank">Recommendation Letter 1</a></li>
+        <li><a href="docs/recommendation_2.pdf" target="_blank">Recommendation Letter 2</a></li>
+      </ul>
+    </div>
+
+    <div class="reference-block">
+      <h3>Professional References</h3>
+      <ul>
+        <li>Name – Position – Company / Institution</li>
+        <li>Name – Position – Company / Institution</li>
+        <li>Name – Position – Company / Institution</li>
+      </ul>
+    </div>
+  </section>
+
 </body>
 </html>
