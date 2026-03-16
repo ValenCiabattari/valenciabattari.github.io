@@ -527,3 +527,76 @@ a:hover {
     font-size: 1.2rem;
   }
 }
+.project-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px 60px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #0b57d0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-hero {
+  margin-bottom: 40px;
+}
+
+.project-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.project-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.project-meta {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.project-section {
+  margin-bottom: 36px;
+}
+
+.project-section h2 {
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-section p {
+  color: #222;
+}
+
+.project-section ul {
+  padding-left: 20px;
+}
+
+.project-section li {
+  margin-bottom: 10px;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.project-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
