@@ -78,18 +78,41 @@
       margin-bottom: 10px;
     }
 
-    .project-gallery {
+    .showcase-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
       margin-top: 20px;
     }
 
-    .project-gallery img {
-      width: 100%;
-      border-radius: 10px;
+    .showcase-grid.wide {
+      grid-template-columns: 1fr;
+    }
+
+    .showcase-card {
+      margin: 0;
       border: 1px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #fafafa;
+    }
+
+    .showcase-card img {
+      width: 100%;
       display: block;
+      background: #fff;
+    }
+
+    .showcase-card figcaption {
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    .showcase-card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #111;
     }
   </style>
 </head>
@@ -101,9 +124,9 @@
     <header class="project-hero">
       <h1>Turismo Nacional Front Nose Aerodynamic Redesign</h1>
       <p class="project-subtitle">
-        Redesign of a Turismo Nacional front nose and fender assembly aimed at improving
-        aerodynamic performance, developed from trackside observations and CAD modeling
-        to prototype support and on-track validation.
+        Front-end redesign of a Turismo Nacional race car developed from trackside
+        engineering observations through CAD surfacing, prototype support, fabrication,
+        and experimental on-track validation.
       </p>
       <p class="project-meta">Detroit Racing | 2025</p>
     </header>
@@ -111,80 +134,126 @@
     <section class="project-section">
       <h2>Overview</h2>
       <p>
-        This project originated during race weekend engineering support, where an opportunity
-        was identified to improve the aerodynamic performance of the car through a redesign
-        of the front nose and fender geometry. The work evolved from initial concept development
-        to CAD redesign, prototype support, manufacturing, and experimental on-track evaluation.
+        This project originated during race weekend engineering work, where an opportunity
+        was identified to improve the aerodynamic behavior of the car through a redesign
+        of the front nose and adjacent fender surfaces. The development progressed from
+        initial observation and concept definition to CAD redesign, prototype support,
+        manufacturing follow-up, and track validation.
       </p>
     </section>
 
     <section class="project-section">
       <h2>Role and Contributions</h2>
       <p>
-        My contribution combined trackside engineering involvement with hands-on design work.
+        My contribution combined junior trackside engineering support with hands-on design work.
         After identifying the potential for improvement, I participated in the redesign of the
-        front-end surfaces in SolidWorks, considering both aerodynamic intent and practical
-        manufacturing constraints. I also supported the development of prototype insert models
-        through 3D printing and followed the project through implementation and testing.
+        front-end geometry in SolidWorks, considering both aerodynamic intent and manufacturing
+        feasibility. I also supported prototype development and followed the part through
+        implementation and testing on the race car.
       </p>
 
       <ul>
-        <li>Detected an aerodynamic improvement opportunity while supporting the team at race events.</li>
-        <li>Redesigned the front nose and fender surfaces in SolidWorks.</li>
-        <li>Balanced aerodynamic objectives with manufacturing and real-world track-use constraints.</li>
-        <li>Produced 3D-printed insert models to support prototype development.</li>
-        <li>Participated in the implementation of the modified front-end assembly on the race car.</li>
-        <li>Contributed to the experimental evaluation of the redesign through data acquisition analysis.</li>
+        <li>Identified an aerodynamic improvement opportunity while working with the team during race events.</li>
+        <li>Redesigned the front nose and connected front-end surfaces in SolidWorks.</li>
+        <li>Balanced aerodynamic goals with manufacturing, assembly, and real track-use constraints.</li>
+        <li>Supported prototype development through insert modeling and practical implementation.</li>
+        <li>Followed the modified part through fabrication and installation on the vehicle.</li>
+        <li>Participated in the experimental evaluation of the redesign using track data acquisition.</li>
       </ul>
     </section>
 
     <section class="project-section">
       <h2>Design Process</h2>
       <p>
-        One of the most valuable aspects of this project was following the full engineering path
-        from observation to validation. The redesign was not limited to proposing a new shape:
-        it required building a feasible geometry, adapting it to the vehicle, supporting the
-        manufacturing process, and ensuring that the final solution could be tested under actual
-        competition conditions.
+        One of the most valuable aspects of this project was experiencing the full engineering
+        loop from track observation to validation. The task was not limited to proposing a new
+        shape: it required generating feasible geometry, adapting it to the existing vehicle,
+        supporting fabrication, and ensuring that the final solution could be tested under
+        real competition conditions.
+      </p>
+      <p>
+        This made the project especially relevant from an engineering standpoint, because it
+        connected design decisions directly with measurable vehicle behavior.
       </p>
     </section>
 
     <section class="project-section">
       <h2>Experimental Validation</h2>
       <p>
-        After implementation, the modified front-end configuration was evaluated experimentally
-        using track data acquisition. The results showed a slight reduction in drag, providing
-        a measurable indication that the redesign moved in the intended aerodynamic direction.
-        Even though the gain was moderate, the project was especially valuable because it linked
-        design decisions with real on-track performance data.
-      </p>
-    </section>
-
-    <section class="project-section">
-      <h2>Project Value</h2>
-      <p>
-        This experience strengthened my understanding of motorsport engineering as a process that
-        connects trackside observation, CAD development, prototyping, and validation. It was also
-        an important opportunity to work in a junior engineering role within a competitive racing
-        environment, contributing to a real vehicle development task with measurable results.
+        After implementation, the modified front-end configuration was evaluated through
+        on-track data acquisition. The test results indicated a slight drag reduction,
+        suggesting that the redesign moved in the intended aerodynamic direction.
+        Even though the gain was moderate, the most important outcome was the ability
+        to link CAD development and fabrication work with real performance data from the car.
       </p>
     </section>
 
     <section class="project-section">
       <h2>Gallery</h2>
       <p>
-        Images can be added here to show the redesigned front nose, development details,
-        prototype inserts, and the corresponding data acquisition results from track testing.
+        The images below summarize the development path: race car baseline condition,
+        CAD redesign of the front-end assembly, fabrication progress, and track-data-based validation.
       </p>
 
-      <!-- Example image blocks -->
-      <!--
-      <div class="project-gallery">
-        <img src="images/tn_nose_1.jpg" alt="Redesigned front nose assembly" />
-        <img src="images/tn_nose_2.jpg" alt="3D-printed insert model" />
-        <img src="images/tn_nose_3.jpg" alt="Track data acquisition result" />
+      <div class="showcase-grid">
+        <figure class="showcase-card">
+          <img src="tn/tn-car-front-baseline.jpg" alt="Turismo Nacional race car with redesigned front nose installed">
+          <figcaption>
+            <strong>Vehicle baseline and application context.</strong>
+            Front view of the Turismo Nacional race car in paddock conditions, showing the
+            front-end region where the aerodynamic redesign opportunity was identified and later implemented.
+          </figcaption>
+        </figure>
+
+        <figure class="showcase-card">
+          <img src="tn/tn-nose-cad-perspective.jpg" alt="Perspective CAD view of the redesigned Turismo Nacional front nose">
+          <figcaption>
+            <strong>CAD redesign development.</strong>
+            Perspective SolidWorks view of the front nose and fender assembly used to develop
+            the new geometry while maintaining compatibility with the existing vehicle architecture.
+          </figcaption>
+        </figure>
+
+        <figure class="showcase-card">
+          <img src="tn/tn-nose-cad-front.jpg" alt="Front CAD view of the redesigned Turismo Nacional front nose">
+          <figcaption>
+            <strong>Surface definition and integration.</strong>
+            Front-oriented CAD view used to assess symmetry, opening geometry, surface continuity,
+            and the overall integration of the redesigned nose profile.
+          </figcaption>
+        </figure>
+
+        <figure class="showcase-card">
+          <img src="tn/tn-fabrication-detail.jpg" alt="Fabrication detail of the Turismo Nacional front nose prototype">
+          <figcaption>
+            <strong>Fabrication and prototype refinement.</strong>
+            Workshop-stage detail of the modified part during finishing and adjustment, illustrating
+            the transition from digital design to a race-ready physical component.
+          </figcaption>
+        </figure>
       </div>
-      -->
+
+      <div class="showcase-grid wide">
+        <figure class="showcase-card">
+          <img src="tn/tn-track-data-validation.jpg" alt="Track data acquisition comparison used for front-end validation">
+          <figcaption>
+            <strong>On-track validation through data acquisition.</strong>
+            Comparison of track data used to evaluate the aerodynamic effect of the redesigned front end.
+            Even with a modest gain, the test provided real feedback linking the design work to measurable performance.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-section">
+      <h2>Project Value</h2>
+      <p>
+        This experience strengthened my understanding of motorsport engineering as a process that
+        connects race weekend observation, CAD development, prototype support, manufacturing, and
+        experimental validation. It was also an important opportunity to contribute in a junior
+        engineering role within a competitive racing environment, participating in a real vehicle
+        development task with measurable technical results.
+      </p>
     </section>
   </main>
 
