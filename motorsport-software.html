@@ -117,6 +117,40 @@
   background: #f8fafc;
   color: #64748b;
 }
+  .project-detail-page .showcase-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.project-detail-page .showcase-card {
+  margin: 0;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.project-detail-page .showcase-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-detail-page .showcase-card figcaption {
+  padding: 16px 18px;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.project-detail-page .showcase-card strong {
+  color: #0f172a;
+}
+
+.project-detail-page .context-note {
+  border-left: 5px solid #0f4c81;
+}
 </style>
 
 
@@ -228,31 +262,86 @@
       </div>
     </section>
 
-    <section class="project-section">
-      <h2>Selected Screens</h2>
-      <div class="project-gallery">
-        <figure>
-          <img src="images/motorsport-software/home.png" alt="Main interface of the motorsport software">
-          <figcaption>Main interface and technical navigation structure</figcaption>
-        </figure>
+<section class="project-section">
+  <h2>Interface Highlights</h2>
+  <p>
+    The following views show selected parts of the application in real operational use,
+    based on a working database containing races, events, configurations, and engineering
+    records from the 2025 season.
+  </p>
 
-        <figure>
-          <img src="images/motorsport-software/setup.png" alt="Set-up management module">
-          <figcaption>Set-up management module</figcaption>
-        </figure>
+  <div class="showcase-list">
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/race-management.png" alt="Race database and season structure">
+      <figcaption>
+        <strong>Race database and season structure.</strong>
+        Centralized management of race weekends, circuits, dates, and assigned drivers,
+        providing a structured competition database and fast access to historical records.
+      </figcaption>
+    </figure>
 
-        <figure>
-          <img src="images/motorsport-software/tyres.png" alt="Tyre history and tracking module">
-          <figcaption>Tyre history and tracking module</figcaption>
-        </figure>
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/event-management.png" alt="Event and session organization">
+      <figcaption>
+        <strong>Event and session organization.</strong>
+        Events are linked to each race and driver, allowing the registration of session-specific
+        information such as timing, ambient conditions, and operational comments.
+      </figcaption>
+    </figure>
 
-        <figure>
-          <img src="images/motorsport-software/aero.png" alt="Aerodynamic configuration module">
-          <figcaption>Aerodynamic configuration module</figcaption>
-        </figure>
-      </div>
-    </section>
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/setup-module.png" alt="Detailed setup management module">
+      <figcaption>
+        <strong>Detailed set-up management.</strong>
+        The software stores and organizes chassis, engine, tyres, aerodynamics, suspension,
+        and related technical parameters inside a structured engineering workflow.
+      </figcaption>
+    </figure>
 
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/sector-analysis.png" alt="Sector analysis and timesheet processing">
+      <figcaption>
+        <strong>Sector-based lap analysis.</strong>
+        Session files can be loaded and processed to compare sector performance, rank results,
+        and support engineering interpretation of lap-time distribution.
+      </figcaption>
+    </figure>
+
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/downforce-comparison.png" alt="Aerodynamic comparison table">
+      <figcaption>
+        <strong>Aerodynamic measurement comparison.</strong>
+        Downforce-related measurements can be filtered, compared, and stored in a structured
+        table, enabling traceable aerodynamic evaluation across configurations and sessions.
+      </figcaption>
+    </figure>
+
+    <figure class="showcase-card">
+      <img src="images/motorsport-software/downforce-lap-analyzer.png" alt="Lap-based aerodynamic analysis plots">
+      <figcaption>
+        <strong>Lap-based aerodynamic analysis.</strong>
+        Dedicated plots allow engineers to compare speed, total downforce, and aero balance
+        along the lap, helping connect measured behaviour to on-track performance.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="project-section context-note">
+  <h2>Language and Operational Context</h2>
+  <p>
+    Although the interface shown here has been adapted to English for presentation purposes,
+    part of the internal database structure and some stored engineering records remain in Spanish.
+    This reflects the real operating environment of the Argentine motorsport team for which the
+    software was developed and used.
+  </p>
+  <p>
+    The project was built as a practical internal engineering tool, so the software architecture
+    follows real team workflows rather than a purely demonstrative or academic structure.
+  </p>
+</section>
+
+    
 <section class="project-section">
   <h2>Demo</h2>
   <p>
